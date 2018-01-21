@@ -11,25 +11,7 @@ body {
   margin-bottom: 60px;
   background: url("keyboard-loop-20740-2560x1600 (2).jpg");
 }
-#footer {
-  position: absolute;
-  /*bottom: 0;*/
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 280px;
-}
 
-.fotu {
-  color: #ffffff;
-}
-
-h3, .h3 {
-    font-size: 24px;
-    text-align: center;
-}
-
-/* Custom footer CSS
--------------------------------------------------- */
 
 .container {
   width: auto;
@@ -136,10 +118,6 @@ h1, .h1 {
   width: 50%;
 }
 
-.form-line{
-  border-right: 1px solid #B29999;
-}
-
 .form-group{
   margin-top: 10px;
 }
@@ -147,6 +125,7 @@ label{
   font-size: 1.3em;
   line-height: 1em;
   font-weight: normal;
+  padding: 12px 0px;
 }
 .form-control{
   font-size: 1.3em;
@@ -216,4 +195,17 @@ body{
   color: #FFF;
   font-size: 1.5em;
   font-family: Tahoma;
+}
+
+li {
+  color: #cc1625;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background: #375a82;
+    color: white;
 }

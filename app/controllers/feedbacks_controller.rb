@@ -7,7 +7,7 @@ class FeedbacksController < ApplicationController
   def create
     @feedback = Feedback.new(feedback_params)
     if @feedback.save
-      flash[:info] = "Your feedback is created"
+      flash[:info] = "Your feedback has been saved sucessfully"
       render 'new'
     else
        flash[:info] = "Feedback not saved!"
