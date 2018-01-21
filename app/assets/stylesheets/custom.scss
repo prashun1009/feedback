@@ -21,10 +21,6 @@ body {
 .container .text-muted {
   margin: 20px 0;
 }
-.footertext {
-  color: #ffffff;
-  margin-top: 80px;
-}
 
 #logo {
   float: left;
@@ -45,8 +41,12 @@ body {
 .navbar {
   background-color: #5c5100;
 }
-.navbar-inverse{
-  border-color: grey;
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+     margin-bottom: 0px !important; 
+    border: 1px solid transparent;
 }
 
 h2, .h2 {

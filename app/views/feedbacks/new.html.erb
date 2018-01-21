@@ -5,6 +5,7 @@
 	</div>
 	<div class="container">
 	 <%= form_for @feedback  do |f| %>
+	 <%= render 'shared/error_messages', object: f.object %>
 			<div class="col-md-6 form-line">
 				<div class="form-group">
 					<label for="exampleInputUsername">Your name</label>
