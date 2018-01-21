@@ -165,3 +165,55 @@ textarea.form-control {
   color: #fff;
 
 }
+
+body, html{
+  height: 100%;
+  width: 100%;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+#bannerCont{
+  position: relative;
+  width: 100%;
+  height: 50%;
+  box-shadow: 3px 0 5px 3px rgba(0,0,0,.3);
+}
+.slide{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bottom{
+  z-index: 1;
+  background-image: url(https://static.tumblr.com/37921e89d48bf34445d6b34c972aeb2f/azpiamb/kqjmuej6m/tumblr_static_greenland_scenery.jpg);
+}
+.middle{
+  z-index: 2;
+  background-image: url(http://www.wallpick.com/wp-content/uploads/2014/01/24/mountain_scenery-782288.jpg);
+  -webkit-animation: fadeMiddle 20s infinite;
+  animation: fadeMiddle 20s infinite;
+}
+.top{
+  z-index: 3;
+  background-image: url(Feedback-Page.jpg);
+  -webkit-animation: fadeTop 20s infinite;
+  animation: fadeTop 20s infinite;
+}
+#bannerDescription{
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  padding: 2% 5%;
+  z-index: 5;
+  background-color: rgba(0,0,0,.6);
+  color: #FFF;
+  font-size: 1.5em;
+  font-family: Tahoma;
+}
