@@ -8,7 +8,7 @@ class FeedbacksController < ApplicationController
     @feedback = Feedback.new(feedback_params)
     if @feedback.save
       flash[:info] = "Your feedback has been saved sucessfully"
-      render 'new'
+      redirect_to  new_feedback_path
     else
        flash[:info] = "Feedback not saved!"
        render 'new'
