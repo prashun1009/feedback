@@ -1,24 +1,14 @@
-# README
+FEEDBACK
+=========
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Quick Project Setup
+From the command line run the following steps in order:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. copy the project url from your github account and clone the repository: `git clone projecturl.com`
+2. make sure all the project dependancies are installed
+3. install project gems: `bundle install`
+4. build the database
+    - `rake db:create`
+    - `rake db:migrate`
+    - `rake db:seed`
+5. Run the project `rails server`
